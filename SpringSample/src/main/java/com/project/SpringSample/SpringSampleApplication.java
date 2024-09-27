@@ -12,7 +12,7 @@ public class SpringSampleApplication {
 
 	@GetMapping("/getMessage")
 	public String message() {
-		return "yay!! its ready....";
+		return "yay!! its ready for use....";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSampleApplication.class, args);
